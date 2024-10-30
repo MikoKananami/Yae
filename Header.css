@@ -1,0 +1,43 @@
+html,body,main,nav{
+	margin:0px;
+	padding:0px;
+.flex{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;
+	color:pink;
+	background-color:#33FFFF;
+}
+.flex>p:hover{
+	transform: scale(0,9);
+	transition: transform .1,5s;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: space-evenly;
+}
+.menu>p:hover{
+	transform: scale(0,9);
+	transition: transform .1,5s;
+}
+.menu_2{
+	margin: 0px;
+	display; flex;
+	flex-direction: columns;
+	align-items:center;	
+}
+.menu div>p{
+	margin:0px;
+}
+.menu_ri{
+	font-size: 3em;
+	font-weight: bold;
+	border-bottom: solid 2px black;
+}
+.menu_3{
+	width:13%;
+	height:13%;
+}
